@@ -1,0 +1,26 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "Generates html page from commandline input",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maximo100100/team-profile-generator.git"
+  },
+  "keywords": [
+    "School"
+  ],
+  "author": "Maximo Bahamondes",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Maximo100100/team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/Maximo100100/team-profile-generator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3",
+    "jest": "^26.1.0"
+  }
+}
