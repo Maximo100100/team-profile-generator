@@ -1,13 +1,4 @@
-
-const newEmployee = [
-    {
-        type: 'list',
-        name: 'role',
-        message: 'Choose an employee to add: ',
-        choices: ['Engineer', 'Intern']
-    }
-];
-
+// questions for the manager
 const managerQ = [
     {
         type: 'input',
@@ -38,7 +29,7 @@ const managerQ = [
         message: 'Enter the office number of the team manager: ',
     }
 ];
-
+//Engineer questions
 const engineerQ = [
     {
         type: 'input',
@@ -56,7 +47,7 @@ const engineerQ = [
     {
         type: 'input',
         name: 'id',
-        message: 'Enter the id of the team manager: ',
+        message: 'Enter the id of the engineer: ',
     },
     {
         type: 'input',
@@ -69,7 +60,7 @@ const engineerQ = [
         message: 'Enter the github username of the engineer: ',
     }
 ];
-
+//Intern questions
 const internQ = [
     {
         type: 'input',
@@ -100,5 +91,14 @@ const internQ = [
         message: 'Enter the school of the intern: ',
     }
 ];
+//for adding new employee
+const newEmployee = [
+    {
+        type: 'list',
+        name: 'role',
+        message: 'Which employee would you like to add: ',
+        choices: ['Engineer', 'Intern', 'All done']
+    }
+];
 
-module.exports = { newEmployee , managerQ, engineerQ, internQ };
+module.exports = {managerQ, engineerQ, internQ, newEmployee};
